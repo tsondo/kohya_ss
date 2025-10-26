@@ -1,0 +1,19 @@
+{
+    "pretrained_model_name_or_path": "models/juggernautXL_ragnarokBy.safetensors",
+    "train_data_dir": "dataset",
+    "resolution": "1024,1024",
+    "train_batch_size": 8,
+    "max_train_steps": 2000,
+    "learning_rate": 1e-4,
+    "lr_scheduler": "cosine",
+    "lr_warmup_steps": 100,
+    "use_lora": true,
+    "lora_rank": 8,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "output_dir": "output",
+    "logging_dir": "output/logs",
+    "mixed_precision": "fp16",
+    "output_name": "nomi_talia_juggernaut",
+    "save_model_as": "safetensors"
+}
