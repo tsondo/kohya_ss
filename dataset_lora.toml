@@ -3,7 +3,7 @@ resolution = 1024
 batch_size = 1
 
   [[datasets.subsets]]
-  image_dir = "/home/tsondo/kohya_ss/dataset/images/talia 40"
+  image_dir = "/home/tsondo/kohya_ss/dataset/images/talia"
   class_tokens = "talia"
   num_repeats = 40
-  caption_extension = ".txt"
+  caption_extension = ".caption"
